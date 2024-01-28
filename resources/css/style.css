@@ -6,7 +6,51 @@
     color: white;
 }
 
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p {
+    font-size: 21px;
+    color: gray;
+    margin: 0;
+    margin-bottom: .88em;
+}
+
 a {
 color: aquamarine;
 font-size: 16px;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.copyright {
+    text-align: right;
+    color: gainsboro;
+
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone {
+    max-width: 5vw;
+    justify-content: center;
+    align-items: center;
 }
