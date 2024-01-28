@@ -11,6 +11,7 @@ video {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
 p {
     font-size: 21px;
     color: gray;
